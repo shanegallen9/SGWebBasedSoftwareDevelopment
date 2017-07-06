@@ -176,6 +176,13 @@ html, body {
   color: #513722;
 }
 
-
+@media (max-width: 700px) {
+  .main h1 {
+    font-size: 110px;
+  }
+  .supporting .col {
+    width: 92%;
+  }
+}
 
 

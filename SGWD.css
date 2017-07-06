@@ -49,6 +49,7 @@ html, body {
   position: absolute;
   margin-left: 385px;
   margin-bottom: 0px;
+  height:130%;
 }
 
 .main .container1 {
@@ -63,7 +64,7 @@ html, body {
 
 .main .container h1 {
   margin-left: 30px;
-  font-size: 64px;
+  font-size: 54px;
 }
 
 .blurb {

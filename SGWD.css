@@ -12,23 +12,23 @@ html, body {
 /* Header */
 
 .header {
+
 	max-height: 120px;
 	background-color: #AD8F67;
 	border: 1px solid #513722;
-}
 
+}
 .header h1, .main h1 {
 	font-family: 'Nixie One';
 	font-size: 60px;
 	text-align: left;
 	color: #513722;
-}
+	}
 
 .header ul li {
 	display: inline;
 	font-size: 20px;
 }
-
 .header ul li a {
 	/*background-color: #513722;*/
 	text-align: center;
@@ -41,21 +41,24 @@ html, body {
 
  /* Container */
 
-.main .container {
-	margin-top: 10px;
-}
 
+.main .container {
+	margin-top: 30px;
+}
 .container1 {
 	text-align: center;
 	width: 1150px;
 	height: 110%;
-        position: absolute;
-        margin-left: 385px;
-        margin-bottom: 0px;
+  position: absolute;
+  margin-left: 385px;
+  margin-bottom: 0px;
 }
 
 .main .container1 {
-	margin-top: 50px;	
+	margin-top: 50px;
+	/*background-color: rgba(173, 143, 103, 0.6);
+	border: 2px solid #AD8F67;
+  	outline: 2px solid #1c1c1c;*/	
 }
 
 /* Main */
@@ -67,12 +70,13 @@ html, body {
 .main .container h1 {
 	margin-left: 30px;
 }
-
 .blurb {
 	text-shadow: 1px 1px 0px #FBEBD2;
 	background-color: rgba(0,0,0,0.8);
 	margin-top: 20px;
 }
+
+
 
 .main img {
   margin-bottom: 40px;
@@ -134,21 +138,20 @@ html, body {
 .ui-accordion-content p {
 	margin-top: 20px;
 }
-
 .ui-accordion-content ul li span {
 	font-weight: bold;
 }
 
-/* Footer */
 
-.footer {
+/* Footer */
+ .footer {
  	height: 60px;
 	background-color: #AD8F67;
 	border: 1px solid #513722;
 	position: fixed;
 	bottom: 0px;
 	width: 100%; 
-}
+ }
 
 .footer p {
   font-size: 16px;
@@ -159,7 +162,6 @@ html, body {
 .footer ul {
 	margin-left: -10px;
 }
-
 .footer ul li a {
   font-size: 16px;
   color: #513722;
@@ -178,6 +180,7 @@ html, body {
   color: #513722;
 }
 
-* {
-  border: 1px solid blue;
+
+
+*{	border: 1px blue solid;
 }

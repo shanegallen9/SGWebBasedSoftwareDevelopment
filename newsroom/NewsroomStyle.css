@@ -1,5 +1,3 @@
-
-
 html, body {
   margin: 0;
   padding: 0;
@@ -9,10 +7,10 @@ html, body {
   color: white;
 }
 
-
 .container{
   max-width: 1140px;
 }
+
 /*------
 
 Header
@@ -24,8 +22,9 @@ Header
   color: white;
   min-height: 80px; 
 }
+
 .header img {
-	height: 50px;
+  height: 50px;
   width: 240px;
   margin-top: 15px;
 }
@@ -72,6 +71,7 @@ Menu
 .menu ul li.active {
   background-color: #1A77FF;
 }
+
 .menu ul li a:hover {
   background-color: #1A77FF;
 }
@@ -110,14 +110,16 @@ Supporting
   background-color: #E9EAEA;
   margin-top: 40px;
 }
+
 .supporting h1 {
   margin: 20px 20px 40px 20px;
 }
+
 .supporting p {
   font-size: 16px;
   margin: 5px 20px 0px 20px;
- 
 }
+
 .supporting h4 {
   margin: 0px 20px 20px 20px;
 }
@@ -127,6 +129,7 @@ Supporting
   padding: 20px 0;
   background-color: white;
 }
+
 .supporting .col-md-8 p {
   color: #354551;
 }
@@ -143,10 +146,9 @@ Supporting
 }
 
 .supporting img {
-	margin: 30px 0;
+  margin: 30px 0;
   max-width:100%;
-	max-height:100%;
-	
+  max-height:100%;	
 }
 
 /*------
@@ -158,25 +160,24 @@ footer
 .footer {
   background-color: #000;
   color: white;
-  min-height: 80px; 
-  
+  height: 40px; 
 }
+
 .footer ul, p {
   margin: 40px 0;
   color: white;
 }
+
 .footer ul li {
   display: inline-block;
   float: left;
   color: white;
 }
+
 .footer ul li a {
   color: white;
 }
+
 .footer ul li a:hover {
   background-color: #1A77FF;
-}
-
-/* {
-  border: 1px dashed blue;
 }

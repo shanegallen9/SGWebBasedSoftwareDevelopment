@@ -178,3 +178,6 @@ html, body {
   color: #513722;
 }
 
+* {
+	border: 1px blue dashed;
+}

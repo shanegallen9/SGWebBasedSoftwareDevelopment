@@ -160,13 +160,14 @@ footer
 .footer {
   background-color: #000;
   color: white;
-  height: 100px; 
+  height: 60px; 
   position: fixed;
   bottom: 0;
+  width: 100%
 }
 
 .footer ul, p {
-  margin: 40px 0;
+  margin: 20px 0 20px -10px;
   color: white;
 }
 

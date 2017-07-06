@@ -176,16 +176,3 @@ html, body {
   color: #513722;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
-  .head h1 {
-    font-size: 20px;
-  }
-  .container, .container1 {
-    width: 80%;
-  }
-}
-
-

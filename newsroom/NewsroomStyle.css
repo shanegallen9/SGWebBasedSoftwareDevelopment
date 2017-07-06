@@ -1,0 +1,182 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+
+.container{
+  max-width: 1140px;
+}
+/*------
+
+Header
+
+------*/
+
+.header {
+  background-color: #000;
+  color: white;
+  min-height: 80px; 
+}
+.header img {
+	height: 50px;
+  width: 240px;
+  margin-top: 15px;
+}
+
+.search {
+  float: right;
+}
+
+#search {
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.search-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #1A77FF;  
+}
+
+/*------
+
+Menu
+
+------*/
+
+.menu {
+  background-color: #354551;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu ul li.active {
+  background-color: #1A77FF;
+}
+.menu ul li a:hover {
+  background-color: #1A77FF;
+}
+
+/*------
+
+Main
+
+------*/
+
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg);
+  background-size: cover;
+  background-position: center; 
+  height: 400px;
+}
+
+.main p {
+  margin: 35px 0;
+  font-size: 16px;
+}
+
+.main span {
+  font-size: 60px;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #1A77FF;
+}
+
+/*------
+
+Supporting
+
+------*/
+
+.supporting .container {
+  background-color: #E9EAEA;
+  margin-top: 40px;
+}
+.supporting h1 {
+  margin: 20px 20px 40px 20px;
+}
+.supporting p {
+  font-size: 16px;
+  margin: 5px 20px 0px 20px;
+ 
+}
+.supporting h4 {
+  margin: 0px 20px 20px 20px;
+}
+
+.supporting .col-md-8 {
+  color: #354551;
+  padding: 20px 0;
+  background-color: white;
+}
+.supporting .col-md-8 p {
+  color: #354551;
+}
+
+.supporting .col-md-4 {
+  background-color: #354551;
+  padding: 20px 0;
+}
+
+.supporting span {
+  font-size: 20px;
+  margin: 0;
+  border-bottom: 3px solid #1A77FF;
+}
+
+.supporting img {
+	margin: 30px 0;
+  max-width:100%;
+	max-height:100%;
+	
+}
+
+/*------
+
+footer
+
+------*/
+
+.footer {
+  background-color: #000;
+  color: white;
+  min-height: 80px; 
+  
+}
+.footer ul, p {
+  margin: 40px 0;
+  color: white;
+}
+.footer ul li {
+  display: inline-block;
+  float: left;
+  color: white;
+}
+.footer ul li a {
+  color: white;
+}
+.footer ul li a:hover {
+  background-color: #1A77FF;
+}
+
+/* {
+  border: 1px dashed blue;
+}

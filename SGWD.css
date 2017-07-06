@@ -65,7 +65,9 @@ html, body {
 
 .main .container h1 {
   margin-left: 30px;
+  font-size: 24px;
 }
+
 .blurb {
   text-shadow: 1px 1px 0px #FBEBD2;
   background-color: rgba(0,0,0,0.8);

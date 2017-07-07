@@ -27,7 +27,6 @@ var main = function() {
     	$('.mobile').addClass('selected'); 
     }
     else {
-      
       $('.thumbnail').removeClass('selected');      
     } 
     });

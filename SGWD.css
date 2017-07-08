@@ -45,10 +45,11 @@ html, body {
 
 .container1 {
   text-align: center;
-  width: 1150px;
+  width: 90%px;
   position: absolute;
-  
-  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto
+  margin-bottom: 30px;
   height:110%;
 }
 

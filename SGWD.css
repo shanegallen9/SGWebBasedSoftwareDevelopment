@@ -4,8 +4,11 @@ html, body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
-  background: url(photos/aaron-burden-183659.jpg);
-  background-size: cover;
+}
+
+body {
+ background: url(photos/aaron-burden-183659.jpg);
+ background-size: cover;
 }
 
 /* Header */
@@ -38,32 +41,25 @@ html, body {
 }
 
  /* Container */
+.container {
+	margin: 0 auto;
+}
 
 .main .container {
-  margin-top: 30px;
+  /*margin-top: 30px;
   margin-bottom: 30px;
-  height:100%
+  height:100%*/
 }
 
 .container1 {
-  text-align: center;
-  width: 90%;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto
-  margin-bottom: 50px;
-  margin-top: 50px;
-  height:100%;
-}
-
-.main .container1 {
-  margin-top: 50px;
+  margin: 20px auto;
 }
 
 /* Main */
 
 .main {
-  height: 100%;
+  margin: auto;
+  height: auto;
 }
 
 .main .container h1 {
@@ -74,19 +70,19 @@ html, body {
 .blurb {
   text-shadow: 1px 1px 0px #FBEBD2;
   background-color: rgba(0,0,0,0.8);
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .main img {
-  margin-bottom: 40px;
   display: block;
   font-size: 40px;
   border: 2px solid #AD8F67;
   outline: 4px solid #1c1c1c; 
-  width:auto;
-  max-width:100%;
-  height:auto;
-  max-width:100%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-bottom: 25px;
 }
 
 .main img:hover {
@@ -98,7 +94,7 @@ html, body {
 .accordion {
   background-color: #fff;
   border: 1px solid #ddd;
-  margin-top: 125px;
+  margin: 60px 0;
 }
 
 .ui-accordion-header {
@@ -144,12 +140,9 @@ html, body {
 
 /* Footer */
 .footer {
-  height: 60px;
+  height: 100%;
   background-color: #AD8F67;
   border: 1px solid #513722;
-  position: fixed;
-  bottom: 0px;
-  width: 100%; 
  }
 
 .footer p {
@@ -160,12 +153,14 @@ html, body {
 
 .footer ul {
   margin-left: -10px;
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 .footer ul li a {
   font-size: 16px;
   color: #513722;
-  margin-top: 10px;
+  margin: auto 0;
 }
 
 .footer ul li {
@@ -180,3 +175,23 @@ html, body {
   color: #513722;
 }
 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  .main .container,
+  .main .container1 {
+	  max-width: 85%;
+  }
+  
+  .header h1 {
+	  font-size: 40px
+	  margin: auto;
+  }
+  
+  .footer ul {
+  margin-left: -10px;
+  margin-top: 12px;
+  font-size: 16px;
+}
+  }
